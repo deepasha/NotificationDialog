@@ -23,6 +23,7 @@ public class app extends Application {
 
     private void createNotificationChannel() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+
             NotificationChannel channel1 = new NotificationChannel(
                     CHANNEL_1_ID,
                     "gps on",
